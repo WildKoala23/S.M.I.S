@@ -7,7 +7,7 @@ from time import sleep
 import threading    
 
 # Load model
-model = YOLO('C:\Users\pedrinho\Documents\GitHub\S.M.I.S\Python\BoxsV2.pt', task="detect")
+model = YOLO('C:\\Users\\pedrinho\\Documents\\GitHub\\S.M.I.S\\Python\\BoxsV2.pt', task="detect")
 
 # Constants
 ROWS, COLS = (3, 3)
